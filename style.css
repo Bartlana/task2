@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+header{
+    height: 600px;
+    background-image: url("img/header.png");
+}
+
+footer{
+    height: 130px;
+    width: 100%;
+    background-color: #E3e3e3;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer > a{
+    font-size: 16px;
+    color: #848484 ;
+    margin: 12px;
+    text-decoration: none;
+    font-weight: 400;
+}
+h2{
+    height: 18px;
+    font-style: oblique;
+}
+.benef{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.lorem{
+    color: #848484;
+    font-weight: 400;
+    line-height: 26px;
+}
+#email{
+    height: 55px;
+    width: 325px;
+    border: 0;
+    border-radius: 12px 0 0 12px;
+    margin-left: 100px;
+    font-size: 18px;
+    color: #848484;
+    padding: 0;
+}
+#submit{
+    height: 55px;
+    width: 140px;
+    border-radius: 0 12px 12px 0;
+    border: 0;
+    padding: 0;
+    background-color: #2ecc71;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+}
+
+#hand{
+    margin-top: 95px;
+    margin-left: 900px;
+    margin-right: auto;
+}
+#wallpaper{
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 966px;
+}
+#player{
+    border-radius: 20px;
+    width: 500px;
+    height: 310px;
+    float: right;
+    margin: 100px;
+}
+#benefits{
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    justify-content: center;
+}
+#subscription{
+     height: 530px;
+     background-color: #e3e3e3;
+}
+#social{
+    height: 500px;
+
+}
+#loremsub{
+    width: 500px;
+    color: #848484;
+    margin-left: 100px;
+    line-height: 26px;
+}
+#getnotified{
+    margin-left: 100px;
+    padding-top: 100px;
+    font-size: 22px;
+    font-family: "Raleway-SemiBold", Arial, sans-serif;
+}
