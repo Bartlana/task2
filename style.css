@@ -1,7 +1,6 @@
 body {
     margin: 0;
     width: 100%;
-
 }
 
 header {
@@ -10,13 +9,6 @@ header {
     background-size: cover;
     position: relative;
 }
-
-
-h2 {
-    height: 18px;
-    font-style: oblique;
-}
-
 
 .header-content {
     margin-top: 5%;
@@ -96,7 +88,6 @@ span{
    font-size: 25px;
 }
 
-
 .benefits {
     text-align: center;
     width: 313px;
@@ -119,6 +110,11 @@ span{
     line-height: 18px;
 }
 
+.input-container {
+    width: 100%;
+    overflow: auto;
+}
+
 #email {
     height: 55px;
     width: 325px;
@@ -126,11 +122,11 @@ span{
     border-radius: 12px 0 0 12px;
     font-size: 18px;
     color: #848484;
+    display: inline;
     padding-left: 25px;
-
 }
 #submit {
-    height: 55px;
+    height: 56px;
     width: 140px;
     border-radius: 0 12px 12px 0;
     border: 0;
@@ -139,6 +135,7 @@ span{
     font-size: 18px;
     color: #ffffff;
     font-family: "Raleway", sans-serif;
+    display: inline;
 }
 
 .player {
@@ -149,7 +146,6 @@ span{
 iframe {
     border: 0;
 }
-
 
 .subscription {
      height: 530px;
@@ -227,11 +223,13 @@ iframe {
     line-height: 26px;
     margin-bottom: 30px;
 }
+
 .container1 {
     padding-top: 60px;
     margin-left: 60px;
     width: 533px;
 }
+
 .images {
     height: 56px;
 }
@@ -244,8 +242,9 @@ iframe {
     font-size: 22px;
     font-weight: 400;
     line-height: 18px;
+}
 
-}footer {
+footer {
      height: 130px;
      width: 100%;
      background-color: #E3e3e3;
